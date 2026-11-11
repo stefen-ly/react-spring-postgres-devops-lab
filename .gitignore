@@ -1,0 +1,28 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Backup files
+*.backup
+*.bak
+
+# React
+node_modules/
+build/
+dist/
+
+# Spring Boot / Gradle
+.gradle/
+**/build/
+*.class
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+.env
